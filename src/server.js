@@ -24,7 +24,7 @@ app.use('/uploads', express.static('uploads'));
 
 // Basit bir rota
 app.get('/', (req, res) => {
-  res.send('Node.js backend is running!');
+  res.send('Node.js backend is running! Updated');
 });
 
 // MongoDB bağlantısı
